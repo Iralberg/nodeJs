@@ -1,0 +1,34 @@
+
+Codigo para inserir
+
+insert into pessoas
+(nome, nascimento, sexo, peso, altura, nacionalidade)
+values
+('Iralberg','2007/02/22','M','81.1','1.71','Brasil'); 
+
+-----------------------------
+usando o id
+default = padrao
+
+insert into pessoas
+(id,nome, nascimento, sexo, peso, altura, nacionalidade)
+values
+(default,'Iralberg','2007/02/22','M','81.1','1.71','Brasil'); 
+
+-----------------------------
+
+FORMA DE INSERIR MAIS OTIMIZADO
+insert into pessoas values
+(default,'Iralberg','2007/02/22','M','81.1','1.71','Brasil'); 
+
+------------------------------
+
+SELECIONA ALGUM DADO
+select * from pessoas
+
+------------------------------
+cadastrar um monte de usuarios
+insert into pessoas values
+('default','Iralberg','2007/02/22','M','81.1','1.71','Brasil')
+('default','pedro','2007/02/22','M','81.1','1.71','Brasil')
+('default','rooney','2007/02/22','M','81.1','1.71','Brasil'); 

@@ -1,0 +1,60 @@
+DESC
+desc = mostra os valores das tabelas
+------------------------------------------
+
+ALTER 
+alter = altera dados
+add = adiciona dados
+after = adiciona depois
+first = adicioana primeiro
+
+ex: alter table pessoas
+    add column codigo int 
+
+ex2:
+alter table pessoas
+add column raca varchar(10) first
+
+ALTER OTIMIZADO
+alter table pessoas
+ add  codigo int 
+-----------------------
+
+MODIFY
+modify = modificar definições
+ex: alter table pessoas
+    modify column codigo varchar(20) not null default ''
+----------------------------------------
+
+CHANGE 
+change = renomeia a coluna
+
+ex: alter table pessoas
+    change column codigo prof varchar(20) not null default ''
+
+---------------------------------------
+
+RENAME  TO
+rename = renomeia dados
+
+ex: alter table pessoas
+    rename to login;
+
+
+
+
+
+
+
+
+    create table if no exists curso(
+nome varchar (20) not null UNIQUE,
+descricao TEXT,
+carga INT unsigned,
+totaulas int unsigned,
+ano year default '2025'
+)default charset= utf8;
+
+ADICIONAR CHAVE
+alter table curso
+add primary key(idcurso);

@@ -1,0 +1,18 @@
+DELETE= deletar registros
+ex01: delete from users where nome='iral';
+
+-------------------------------------------
+
+where = condicao
+bota where e a condicao
+
+ex: select * from users where idade < 18;
+
+-----------------------------------
+ DROP = apagar banco e tabelas
+
+ex01: drop database meubanco01; => apagar banco
+
+ex02 drop table users; => apagar tabela
+
+ex03: alter table users drop column nome; => apagar coluna

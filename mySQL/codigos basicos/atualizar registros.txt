@@ -1,0 +1,4 @@
+UPDATE
+update = atualizar registros
+
+ex: UPDATE users SET nome='carlao' WHERE nome ='LUCAS'
